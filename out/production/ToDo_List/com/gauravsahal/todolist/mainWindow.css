@@ -1,0 +1,169 @@
+
+/*    ****************************************Css Styling for Main Window***********************************    */
+.titled-pane > .title {
+    -fx-background-color:
+        linear-gradient(to bottom,
+            derive(-fx-color,-15%) 95%,
+            derive(-fx-color,-25%) 100%
+        ),
+        -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 3 3 0 0, 2 2 0 0, 1 1 0 0;
+    -fx-padding: 4 9 4 9; /* 0.3333em 0.75em 0.3333em 0.75em */
+}
+
+.titled-pane > .title:hover {
+    -fx-color: -fx-hover-base;
+}
+
+.root{
+    -fx-background-color: skyblue;
+}
+
+.tool-bar{
+    -fx-background-color: skyblue;
+}
+
+.menu{
+    -fx-background-color: #1d1d1d;
+    -fx-background-radius: 20;
+}
+
+.menu .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label{
+    -fx-padding: 0em 0em 0em 0em;
+    -fx-text-fill: WHITE;
+}
+
+.menu:hover {
+    -fx-background-color: #3a3a3a;
+    -fx-opacity: 0.6;
+}
+
+
+.context-menu {
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+    -fx-min-width: 150px;
+    -fx-pref-width: 150px;
+    -fx-max-width: 150px;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    /*-fx-border-color: #e2e2e2;
+    -fx-border-width: 2;*/
+    -fx-background-radius: 20;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+    -fx-opacity: 0.6;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+.toggle-button {
+    -fx-padding: 5 22 5 22;
+    /*-fx-border-color: #e2e2e2;*/
+    /*-fx-border-width: 2;*/
+    -fx-background-radius: 20;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 13pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.toggle-button:hover {
+    -fx-background-color: #3a3a3a;
+    -fx-opacity: 0.6;
+}
+
+.toggle-button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+#OutputlistviewFont{
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+    -fx-font-size: 10pt;
+}
+
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    /*-fx-text-fill: white;*/
+}
+
+
+#outputTextArea {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+#copyrightLabel{
+    -fx-font-family: "Times New Roman", Times, serif;
+    -fx-font-size: 13pt;
+    -fx-padding: 5 22 5 22;
+}
+
+.hyperlink:hover{
+    -fx-background-color: #3a3a3a;
+    -fx-opacity: 0.6;
+}
+
+/*    ********************************Css Styling for Dialogue box*********************************     */
+
+.content .label{
+    -fx-font-family: Impact, Charcoal, sans-serif;
+    -fx-font-size: 14pt;
+}
+
+.content .text-area{
+    -fx-font-size: 14pt;
+    -fx-font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.content .text-field{
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+    -fx-font-size: 10pt;
+}
+
+
+.dialog-pane {
+    -fx-background-color: skyblue;
+}
+
+.dialogButton {
+-fx-background-color: red;
+/*-fx-primary;*/
+-fx-text-fill: -fx-primatytext;
+-fx-font-size: 12pt;
+-fx-background-radius: 20;
+-fx-border-width: 5px;
+-fx-border-color: -fx-secondary;
+}
+.dialogButton:hover {
+    -fx-background-color: -fx-secondary;
+}
+
+
+
+
+
+
+
+
